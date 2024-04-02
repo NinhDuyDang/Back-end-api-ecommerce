@@ -1,13 +1,3 @@
-# This is back end for CNPMM project
-
-# Backend Group 9
-> this is document description for backend system
-
-> You can replace https://cnpmmbe.herokuapp.com/ to https://cnpmmbe.herokuapp.com/
-
-=======================================================================================
-
-##  ==================>> Guest API <<========================= 
 
 ### Sign up
 link: https://cnpmmbe.herokuapp.com/signup

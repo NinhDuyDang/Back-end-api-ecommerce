@@ -1,6 +1,6 @@
 
 ### Sign up
-link: https://cnpmmbe.herokuapp.com/signup
+
 
 > POST
 #### Request

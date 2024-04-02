@@ -6,13 +6,13 @@ link: https://cnpmmbe.herokuapp.com/signup
 #### Request
 ```
 {
-    "name":"khang",
+    "name":"dang",
     "dateofbirth":"06-06-2000",
     "email":"abc",
     "address":"123, dadd",
     "gender":"male",
     "phone":"123123123123",
-    "username":"khang",
+    "username":"dang",
     "password":"123"
 }
 ```
@@ -23,7 +23,7 @@ status: 201
 ```
 {
     "id": 5,
-    "name": "khang",
+    "name": "dang",
     "dateofbirth": "06-06-2000",
     "email": "abc",
     "address": "123, dadd",
@@ -48,7 +48,7 @@ link: https://cnpmmbe.herokuapp.com/login
 #### Request
 ```
 {
-    "username":"khang",
+    "username":"Dang",
     "password":"123"
 }
 ```
@@ -59,7 +59,7 @@ status: 200
 ```
 {
     "id": 5,
-    "name": "khang",
+    "name": "dang",
     "dateofbirth": "06-06-2000",
     "email": "abc",
     "address": "123, dadd",
@@ -473,7 +473,7 @@ link: https://cnpmmbe.herokuapp.com/product/comment/1
     {
         "id": 46,
         "productId": 1,
-        "username": "khang",
+        "username": "dang",
         "comment": "good product",
         "star": 3,
         "date": "01-11-2021"
@@ -495,7 +495,7 @@ link: https://cnpmmbe.herokuapp.com/user/1
 #### Request
 ```
 {
-    "name":"khangupdate",
+    "name":"dangupdate",
     "dateofbirth":"06-06-2000",
     "email":"abc",
     "address":"123, dadd",
@@ -507,7 +507,7 @@ link: https://cnpmmbe.herokuapp.com/user/1
 ```
 {
     "id": 1,
-    "name": "khangupdate",
+    "name": "dangupdate",
     "dateofbirth": "06-06-2000",
     "email": "abc",
     "address": "123, dadd",
@@ -537,7 +537,7 @@ link: https://cnpmmbe.herokuapp.com/user/password/47
 ```
 {
     "id": 47,
-    "name": "khang",
+    "name": "dang",
     "dateofbirth": "06-06-2000",
     "email": "abc",
     "address": "123, dadd",
@@ -793,7 +793,7 @@ link: https://cnpmmbe.herokuapp.com/user/comment
 ```
 {
     "productId": 1,
-    "username": "khang",
+    "username": "dang",
     "comment": "good product",
     "star":3
 }
@@ -887,13 +887,13 @@ link: https://cnpmmbe.herokuapp.com/seller/signup
 #### Request
 ```
 {
-    "name":"khang",
+    "name":"dang",
     "dateofbirth":"06-06-2000",
     "email":"abc",
     "address":"123, dadd",
     "gender":"male",
     "phone":"10231023123",
-    "username":"khangseller05",
+    "username":"dangseller05",
     "password":"123"
 }
 ```
@@ -903,7 +903,7 @@ Status: 201
 ```
 {
     "id": 0,
-    "name": "khang",
+    "name": "dang",
     "dateofbirth": "06-06-2000",
     "email": "abc",
     "address": "123, dadd",
@@ -922,7 +922,7 @@ link: https://cnpmmbe.herokuapp.com/seller/login
 #### Request
 ```
 {
-    "username":"khangseller05",
+    "username":"dangseller05",
     "password":"123"
 }
 ```
@@ -931,7 +931,7 @@ link: https://cnpmmbe.herokuapp.com/seller/login
 ```
 {
     "id": 0,
-    "name": "khang",
+    "name": "dang",
     "dateofbirth": "06-06-2000",
     "email": "abc",
     "address": "123, dadd",
@@ -957,7 +957,7 @@ link: https://cnpmmbe.herokuapp.com/seller/0
 ```
 
 {
-    "name":"khangupdate",
+    "name":"dangupdate",
     "dateofbirth":"06-06-2000",
     "email":"abcdd",
     "address":"123, dadd",
@@ -970,7 +970,7 @@ link: https://cnpmmbe.herokuapp.com/seller/0
 ```
 {
     "id": 0,
-    "name": "khangupdate",
+    "name": "dangupdate",
     "dateofbirth": "06-06-2000",
     "email": "abcdd",
     "address": "123, dadd",
@@ -1003,7 +1003,7 @@ link: https://cnpmmbe.herokuapp.com/seller/password/0
 ```
 {
     "id": 0,
-    "name": "khangupdate",
+    "name": "dangupdate",
     "dateofbirth": "06-06-2000",
     "email": "abcdd",
     "address": "123, dadd",
@@ -1033,7 +1033,7 @@ link: https://cnpmmbe.herokuapp.com/seller/0
 ```
 {
     "id": 0,
-    "name": "khangupdate",
+    "name": "dangupdate",
     "dateofbirth": "06-06-2000",
     "email": "abcdd",
     "address": "123, dadd",
@@ -2030,12 +2030,12 @@ link: https://cnpmmbe.herokuapp.com/admin/users
 [
     {
         "_id": "6172bfd9ac00f1a3d14e6f28",
-        "name": "khang",
+        "name": "dang",
         "dateofbirth": "06-06-2000",
-        "email": "giakhangnguyen115@gmail.com",
+        "email": "Ninhdang115@gmail.com",
         "address": "123, dadd",
         "gender": "male",
-        "username": "khang",
+        "username": "dang",
         "password": "$2b$10$gBD543uV7LAQ18xEIOZkOOR4E.0RLpD1k8mMgL.v0R0Thfb9ZQGnG",
         "role": "ROLE_USER",
         "id": 0,
@@ -2043,12 +2043,12 @@ link: https://cnpmmbe.herokuapp.com/admin/users
     },
     {
         "_id": "6172c4258ea21d4e85bc4814",
-        "name": "khang",
+        "name": "dang",
         "dateofbirth": "06-06-2000",
         "email": "abc",
         "address": "123, dadd",
         "gender": "male",
-        "username": "khangseller",
+        "username": "dangseller",
         "password": "$2b$10$8LeiJ0auw8hyTta6sCtF4ONCHCRF54WmVe9rTN4wonGX3v5UV4qK2",
         "role": "ROLE_SELLER",
         "id": 2,
@@ -2177,12 +2177,12 @@ link: https://cnpmmbe.herokuapp.com/admin/sellers
 [
     {
         "_id": "618b270c21ebca6f4cf1bb86",
-        "name": "khangupdate",
+        "name": "dangupdate",
         "dateofbirth": "06-06-2000",
         "email": "abcdd",
         "address": "123, dadd",
         "gender": "female",
-        "username": "khangseller05",
+        "username": "dangseller05",
         "password": "$2b$10$UYj13EOugZC7sD0ikXyRjO6HDoOjIPHBsPQKCEAUy14avThT9WiPW",
         "phone": "12392139123",
         "id": 0,
@@ -2272,12 +2272,12 @@ link: https://cnpmmbe.herokuapp.com//admin/shipperwithoutverify
 [
     {
         "_id": "619d9fba0bc38884e93f06d6",
-        "name": "khang",
+        "name": "dang",
         "dateofbirth": "06-06-2000",
         "email": "abc",
         "address": "123, dadd",
         "gender": "male",
-        "username": "khangshipper01",
+        "username": "dangshipper01",
         "phone": "10231023123",
         "status": "initial",
         "id": 1,
@@ -2297,13 +2297,13 @@ link: https://cnpmmbe.herokuapp.com//shipper/signup
 ### Request
 ```
 {
-    "name":"khang",
+    "name":"dang",
     "dateofbirth":"06-06-2000",
     "email":"abc",
     "address":"123, dadd",
     "gender":"male",
     "phone":"10231023123",
-    "username": "khangshipper",
+    "username": "dangshipper",
     "password":"123"
 }
 ```
@@ -2312,7 +2312,7 @@ link: https://cnpmmbe.herokuapp.com//shipper/signup
 ```
 {
     "id": 0,
-    "name": "khang",
+    "name": "dang",
     "dateofbirth": "06-06-2000",
     "email": "abc",
     "address": "123, dadd",
@@ -2329,7 +2329,7 @@ link: https://cnpmmbe.herokuapp.com//shipper/login
 #### Request
 ```
 {
-    "username":"khangshipper",
+    "username"dangshipper",
     "password":"123"
 }
 ```
@@ -2348,7 +2348,7 @@ link: https://cnpmmbe.herokuapp.com//shipper/login
 ```
 {
     "id": 0,
-    "name": "khang",
+    "name": "dang",
     "dateofbirth": "06-06-2000",
     "email": "abc",
     "address": "123, dadd",
@@ -2375,7 +2375,7 @@ link: https://cnpmmbe.herokuapp.com//shipper
 [
     {
         "orderId": 54,
-        "name": "Khang Nguyễn",
+        "name": "Ninh Dang",
         "address": "số 115, đường 265",
         "phone": "0919910266",
         "description": "dasdasdx1, dasdadx1",
@@ -2432,7 +2432,7 @@ link: https://cnpmmbe.herokuapp.com//shipper/order/0
 [
     {
         "orderId": 54,
-        "name": "Khang Nguyễn",
+        "name": "Ninh Dang",
         "address": "số 115, đường 265",
         "phone": "0919910266",
         "description": "dasdasdx1, dasdadx1",
@@ -2481,7 +2481,7 @@ link: https://cnpmmbe.herokuapp.com//shipper/ordersuccess/0
 [
     {
         "orderId": 54,
-        "name": "Khang Nguyễn",
+        "name": "Ninh Dang",
         "address": "số 115, đường 265",
         "phone": "0919910266",
         "description": "dasdasdx1, dasdadx1",
